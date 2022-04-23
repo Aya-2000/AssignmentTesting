@@ -26,6 +26,8 @@ public class WatermelonTest  {
         Watermelon wat=new Watermelon();
 
         assertEquals(false,wat.watermelon(102));
+        assertEquals(true,wat.watermelon(90));
+        assertEquals(false,wat.watermelon(99));
 
     }
 }

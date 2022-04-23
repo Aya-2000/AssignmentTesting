@@ -5,16 +5,18 @@ public class Watermelon {
 
 
 
-
-        if (w >= 1 && w <= 100 && w % 2 == 0) {
-            System.out.println("Yes");
-            return true;
-        }
-
-        else
-            {
+        if (w >= 1 && w <= 100) {
+            if (w % 2 == 0) {
+                System.out.println("Yes");
+                return true;
+            } else {
                 System.out.println("NO");
                 return false;
             }
+        }
+        else {
+            System.out.println("Weight must be between 0 & 100");
+            return false;
+        }
     }
 }
