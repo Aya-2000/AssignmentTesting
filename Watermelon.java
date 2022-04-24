@@ -15,7 +15,7 @@ public class Watermelon {
             }
         }
         else {
-            System.out.println("Weight must be between 0 & 100");
+            System.out.println("Weight must be between 1 & 100");
             return false;
         }
     }
